@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>produktinfo - E-commerce Website</title>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/199f67384f.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <p><a href="/">
+                    <img src="images/logo-kalmar.png"width="130px">
+                    </p></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/produkter">Produkter</a></li>
+                        <li><a href="/produktInfo">Konfigurere</a></li>
+                        <li><a href="/">Kontakt</a></li>
+                        <li><a href="/account">Konto</a></li>
+                    </ul>
+                </nav>
+                    <p><a href="/cart">
+                    <img src="images/cart.png" width="30px" height="30px">
+                    </p></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/customizepc.jpg" width="100%" height="250%">
+                </div>
+                <div class="partpicker">
+                    <h1>Skræddersy din gaming PC</h1>
+                    <p>Grafik Kort</p>
+                    <select>
+                        <option>GeForce. RTX 3080</option>
+                        <option>Radeon. RX 6800 XT</option>
+                        <option>GeForce. RTX 3090</option>
+                        <option>GeForce GTX 1650 Super</option>
+                        <option>Radeon RX 5500 XT 4GB</option>
+                    </select>
+                    <p>Motherboard</p>
+                    <select>
+                        <option>Gigabyte A520 AORUS ELITE</option>
+                        <option>MSI MAG B550M Mortar</option>
+                        <option>Asus ROG Strix B550-E Gaming</option>
+                        <option>MSI MPG X570 Gaming Pro Carbon WiFi</option>
+                        <option>Asus ROG Crosshair VIII Dark Hero</option>
+                    </select>
+                    <p>Ram</p>
+                    <select>
+                        <option>Patriot Viper Steel DDR4-4400 (2x8GB)</option>
+                        <option>Patriot Viper RGB DDR4-3600 (2x8GB)</option>
+                        <option>Corsair Vengeance RGB Pro DDR4-3200 (4x8GB)</option>
+                        <option>Patriot Viper Steel DDR4-3200 (2x16GB)</option>
+                        <option>TeamGroup T-Force Xtreem ARGB DDR4-3600 (2x8GB)</option>
+                    </select>
+                    <p>Processor</p>
+                    <select>
+                        <option>AMD Ryzen 5 5600X</option>
+                        <option>Intel Core i5-12600K</option>
+                        <option>Intel Core i9-12900K</option>
+                        <option>AMD Ryzen 9 5950X</option>
+                        <option>Intel Core i7-12700K</option>
+                    </select>
+                    <p>Kabinet</p>
+                    <select>
+                        <option>Cooler Master Cosmos C700P</option>
+                        <option>Corsair Carbide 275R</option>
+                        <option>Phanteks Evolv X</option>
+                        <option>NZXT H210i</option>
+                        <option>Corsair Obsidian 1000D</option>
+                    </select>
+                    <p>Lagring</p>
+                    <select>
+                        <option>Samsung 970 Evo Plus</option>
+                        <option>Corsair MP400</option>
+                        <option>Addlink S70</option>
+                        <option>Western Digital Black SN850</option>
+                        <option>Intel SSD 665P</option>
+                    </select>
+                    <p>Strømforsyning</p>
+                    <select>
+                        <option>Samsung 970 Evo Plus</option>
+                        <option>Corsair MP400</option>
+                        <option>Addlink S70</option>
+                        <option>Western Digital Black SN850</option>
+                        <option>Intel SSD 665P</option>
+                    </select>
+                </div>
+                <a href="" class="btn1">Add to cart</a>
+            </div>
+        </div>
+
+        <!--Title-->
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Relaterede produkter</h2>
+                <p>View more</p>
+            </div>
+        </div>
+
+        <!--Produkter-->
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/customizepc.jpg">
+                    <h4>pc</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <p>250£</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/customizepc.jpg">
+                    <h4>3999kr</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>4999kr</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/customizepc.jpg">
+                    <h4>PC</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>5999kr£</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/customizepc.jpg">
+                    <h4>PC</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>6999kr</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+   
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download our App for android and ios mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <p><a href="/">
+                    <img src="images/logo-kalmar.png">
+                    </p></a> 
+                    <p>Vores primært mål er at levere high end produkter som
+                    du kan nyde i din fritid <br> alene eller sammen ved kammeraterne. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+     <script>
+         var MenuItems = document.getElementById("MenuItems");
+
+         MenuItems.style.maxHeight = "0px";
+
+         function menutoggle(){
+             if(MenuItems.style.maxHeight == "0px")
+             {
+                 MenuItems.style.maxHeight = "200px";
+             }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+         }
+     </script>
+</body>
+</html>
